@@ -1,0 +1,156 @@
+.home-pages {
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 220px;
+}
+
+.photo-home {
+    img {
+        width: 35vw;
+    }
+
+}
+
+.text-home {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.sayana {
+    font-weight: 900;
+    font-size: 60px;
+}
+
+.style {
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.about-me-btn {
+    button {
+        margin-top: 20px;
+        width: 240px;
+        height: 60px;
+        background-color: rgb(214, 132, 203);
+        color: white;
+        font-weight: 800;
+        border: solid 1px white;
+        font-size: 20px;
+    }
+
+    button:hover {
+        margin-top: 20px;
+        width: 240px;
+        height: 60px;
+        background-color: white;
+        color: rgb(214, 132, 203);
+        font-weight: 800;
+        border: solid 2px rgb(214, 132, 203);
+    }
+}
+
+.no-transform {
+    text-decoration: none;
+}
+
+.image-block {
+    margin: 120px auto;
+    display: flex;
+    width: 80%;
+    height: 100%;
+    align-items: center;
+}
+
+.image-first {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid;
+    height: 100%;
+    margin: 12px;
+    padding: 10px;
+}
+
+.image-first:hover {
+    flex-direction: column;
+    border-color: rgb(214, 132, 203);
+   
+}
+
+.image-other {
+    display: flex;
+    flex-direction: column;
+}
+
+.first-image {
+    width: 100%;
+}
+
+.h2-block-image {
+    font-size: 2vw;
+    font-weight: 400;
+    color: white;
+}
+
+.first-image {
+    width: 100%;
+}
+
+.block-text-in-image {
+    font-weight: 400;
+}
+
+
+
+/* #sayaka {
+    animation-name: rotation;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@-webkit-keyframes rotation {
+    0% {-webkit-transform:rotate(0deg);
+        -moz-transform:rotate(0deg);
+        -o-transform:rotate(0deg);
+        transform:rotate(0deg);}
+    100% {-webkit-transform:rotate(360deg);
+        -moz-transform:rotate(360deg);
+        -o-transform:rotate(360deg);
+        transform:rotate(360deg);}
+}
+@-moz-keyframes rotation {
+    0% {-webkit-transform:rotate(0deg);
+        -moz-transform:rotate(0deg);
+        -o-transform:rotate(0deg);
+        transform:rotate(0deg);}
+    100% {-webkit-transform:rotate(360deg);
+        -moz-transform:rotate(360deg);
+        -o-transform:rotate(360deg);
+        transform:rotate(360deg);}
+}
+@-o-keyframes rotation {
+    0% {-webkit-transform:rotate(0deg);
+        -moz-transform:rotate(0deg);
+        -o-transform:rotate(0deg);
+        transform:rotate(0deg);}
+    100% {-webkit-transform:rotate(360deg);
+        -moz-transform:rotate(360deg);
+        -o-transform:rotate(360deg);
+        transform:rotate(360deg);}
+}
+@keyframes rotation {
+    0% {-webkit-transform:rotate(0deg);
+        -moz-transform:rotate(0deg);
+        -o-transform:rotate(0deg);
+        transform:rotate(0deg);}
+    100% {-webkit-transform:rotate(360deg);
+        -moz-transform:rotate(720deg);
+        -o-transform:rotate(360deg);
+        transform:rotate(360deg);}
+} */
+
+

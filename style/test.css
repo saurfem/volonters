@@ -1,0 +1,24 @@
+.test {
+    margin: 50px auto;
+    background-color: coral;
+    height: 500px;
+    width: 70%;
+    color: black;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .test img {
+    height: 100%;
+  }
+  
+  .test2 {
+    width: 100%;
+  }
+  
+  @media screen and (max-width: 786px) {
+    .test img {
+      width: 100%;
+      height: auto;
+    }
+  }

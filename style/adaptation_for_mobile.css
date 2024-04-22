@@ -1,0 +1,240 @@
+@media screen and (max-width: 786px) {
+  header {
+    height: auto;
+  }
+
+  #Header_email {
+    display: none;
+  }
+
+  #Header_div_box {
+    width: 100%;
+  }
+
+  #Home {
+    width: 100%;
+    font-size: 12px;
+    font-weight: 900;
+    text-align: center;
+  }
+
+  #Home_name {
+    font-size: 28px;
+  }
+
+  #Home_name_v2 {
+    font-size: 32px;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 0 32px;
+  }
+
+  .h3-lorem {
+    font-size: 18px;
+    line-height: 21px;
+  }
+
+  #Home_div {
+    margin: 0 auto;
+    width: 90vw;
+  }
+
+  #Home_div ul li span {
+    font-size: 20px;
+  }
+
+  #Home_div {
+    border: solid #fff 1px;
+    border-radius: 0 50px;
+    background-color: rgba(255, 255, 255, 0.14);
+    width: 90vw;
+    height: 250px;
+  }
+
+
+
+  /* About */
+
+  #About_box {
+    width: 100%;
+  }
+
+  .pinki {
+    width: 130px;
+  }
+
+  #About_content {
+    width: 100%;
+    text-align: center;
+  }
+
+  .Section_name_v1 {
+    font-size: 25px;
+    margin: 0;
+  }
+
+  .Section_name_v2 {
+    font-size: 22px;
+    margin: 0;
+  }
+
+  #About_content_cart {
+    width: 75vw;
+    margin: 0 auto;
+  }
+
+  #About_content_cart div {
+    margin: 5px;
+  }
+
+  #About_content_cart_img {
+    justify-content: center;
+  }
+
+  /* Borders */
+
+  #border_v1 {
+    height: 55px;
+  }
+
+  #border_v1_text {
+    font-size: 18px;
+    font-weight: 700;
+  }
+
+  #Price_section_name h1,
+  #Price_section_name h2 {
+    margin: 0 auto;
+  }
+
+  #Price_box {
+    width: 100vw;
+  }
+
+  #Price_cards_box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #Price_content {
+    width: 100vw;
+  }
+
+  #border_v2 {
+    height: 55px;
+  }
+
+  #border_v2_text {
+    font-size: 18px;
+    font-weight: 700;
+  }
+
+  /* Contacts */
+
+  #Contacts_content {
+    width: 95%;
+  }
+
+  #Content_second_box hr {
+    width: 80%;
+  }
+
+  #Content_first_box_content {
+    justify-content: space-around;
+    transform: scale(0.9);
+  }
+
+  #Content_first_box_2 {
+    transform: scale(0.8);
+  }
+
+  #Content_first_box_1 {
+    min-width: 100%;
+  }
+
+  #Workflow {
+    margin: 0;
+  }
+
+  #Portfolio {
+    margin: 0;
+  }
+
+  .workflow_article,
+  .portfolio_article {
+    align-items: center;
+    margin-top: 100px;
+  }
+
+  #Home_button {
+    display: flex;
+    width: 88%;
+    margin: 20px auto;
+    justify-content: space-around;
+  }
+
+  /* articles */
+  .demo-card {
+    width: 100%;
+    height: 500px;
+    flex-direction: column;
+  }
+
+  .demo-card-text {
+    flex-direction: row;
+
+  }
+
+  .demo-img-teg {
+    width: 50%;
+    height: 50%;
+  }
+}
+
+/* for aboutme and его состовляющих  */
+
+@media screen and (width < 767px) {
+  .home-pages {
+    flex-direction: column;
+  }
+
+  .photo-home img {
+    width: 100%;
+    margin: 0 auto;
+    height: 100%;
+  }
+
+  .image-block {
+    flex-direction: column;
+    margin: 0 auto;
+    width: 100%;
+  }
+}
+
+@media screen and (width < 768px) {
+  .articles-h2 {
+    font-size: 12px;
+  }
+
+  .articles-p {
+    font-size: 12px;
+  }
+
+  
+
+  .articles-demo-card {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .demo-card {
+    flex-direction: column;
+    height: 100%;
+  }
+ 
+
+}
+

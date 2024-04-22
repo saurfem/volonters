@@ -1,0 +1,56 @@
+#About {
+    height: 700px;
+
+}
+
+.shell-kz {
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.bgabstr-kzovol {
+    display: flex;
+    border: 1px solid wheat;
+    padding: 12px;
+    height: 100%;
+    /* fixed height */
+    width: 100%;
+    flex-direction: column;
+    margin: 12px;
+    justify-content: space-around;
+}
+
+.cart-image {
+    display: flex;
+    justify-content: center;
+}
+
+.cart-image img {
+    width: 50%;
+    border-radius: 100%;
+}
+
+.info-kzovol {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 150px;
+    justify-content: space-evenly;
+}
+
+.content-kz {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+@media screen and (max-width: 786px) {
+    .shell-kz {
+        flex-direction: column;
+        width: 90%;
+        align-items: center;
+    }
+
+}

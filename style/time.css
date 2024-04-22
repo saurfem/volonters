@@ -1,0 +1,19 @@
+/* there is time */
+
+#time-div {
+    height: 40px;
+    background-color: black;
+    width: 100px;
+    border-radius: 25px;
+    border: 2px solid black;
+    display: flex;
+}
+
+#row-revers-time-div {
+    height: 40px;
+    width: 40px;
+    background-color: pink;
+    display: flex;
+    align-items: center;
+    border-radius: 25px;
+}

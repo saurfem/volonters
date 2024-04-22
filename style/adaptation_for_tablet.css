@@ -1,0 +1,116 @@
+@media screen and (max-width: 1600px) {
+  nav {
+    display: none;
+  }
+
+  #Header_button {
+    display: block;
+  }
+
+  #Header_div_box {
+    width: 90%;
+  }
+
+  #Home {
+    width: 90%;
+  }
+
+  /* About */
+
+  #About_box {
+    width: 90%;
+  }
+
+  /* Borders */
+
+  #border_v1_text span {
+    display: none;
+  }
+
+  #border_v2_text span {
+    display: none;
+  }
+
+  /* Price */
+
+  #Price {
+    height: auto;
+  }
+
+  #Price_box {
+    height: auto;
+    display: flex;
+    align-items: center;
+    padding: 150px 0;
+  }
+
+  #Price_content {
+    height: auto;
+  }
+
+  #Price_cards_box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-direction: row;
+  }
+
+  #Price_card {
+    margin: 5%;
+  }
+
+  /* Contacts */
+
+  #Contacts_content {
+    width: 90vw;
+  }
+
+  #Content_second_box_1 {
+    width: 100%;
+  }
+
+  #Content_second_box_2 {
+    display: none;
+  }
+
+  #Content_second_box hr {
+    width: 50%;
+  }
+
+  #Content_first_box_content {
+    justify-content: flex-start;
+  }
+
+  #Workflow {
+    margin: 0;
+  }
+
+  #Portfolio {
+    margin: 0;
+  }
+
+  .portfolio_subtitle{
+    
+  }
+}
+
+/* for aboutme and его состовляющих  */
+
+@media screen and (width < 1202px) {
+  .home-pages {
+      flex-direction: column;
+  }
+
+  .photo-home img {
+      width: 100%;
+      margin: 0 auto;
+      height: 100%;
+  }
+
+  .image-block {
+      margin: 80px auto;
+      width: 82.1%;
+      padding: 0;
+  }
+}
+
